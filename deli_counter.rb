@@ -5,7 +5,6 @@ def line(katz_deli)
     phrase = "The line is currently:"
     katz_deli.each_with_index do |person, index|
     phrase << (" #{index + 1}. #{person}")
-
     end
     puts phrase
 
