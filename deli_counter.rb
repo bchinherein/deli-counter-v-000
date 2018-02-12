@@ -4,7 +4,7 @@ def line(katz_deli)
   else
     phrase = "The line is currently:"
     katz_deli.each_with_index do |person, index|
-    phrase.push("#{index + 1}. #{person}")
+    phrase << ("#{index + 1}. #{person}")
 
     end
     puts phrase
