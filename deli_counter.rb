@@ -4,7 +4,7 @@ def line(katz_deli)
   else
     phrase_array = []
     katz_deli.each_with_index do |person, index|
-    phrase_array.push(index, person]
+    phrase_array.push(index, person)
 
     end
     puts "The line is currently:" phrase_array.join
