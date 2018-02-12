@@ -7,7 +7,7 @@ def line(katz_deli)
     phrase_array.push(index, person)
 
     end
-    puts "The line is currently:" phrase_array.join
+    puts "The line is currently:" phrase_array
 
   end
 end
