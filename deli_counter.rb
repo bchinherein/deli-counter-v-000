@@ -2,12 +2,12 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    phrase_array = []
+    phrase = "The line is currently:"
     katz_deli.each_with_index do |person, index|
     phrase_array.push(index, person)
 
     end
-    puts "The line is currently:" phrase_array.join
+    puts phrase
 
   end
 end
